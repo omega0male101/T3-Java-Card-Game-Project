@@ -10,7 +10,4 @@ public class Dealer{
         Card card = deck.removeCard();
         player.cardsHeld.addCard(card);
     }
-
-
-
 }
