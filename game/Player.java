@@ -1,14 +1,24 @@
-public class Player{
+public class Player {
+
     String name;
-    public
-}
+    public CardDeal cards;
+    public int points;
+
+    public Player(String name, CardDeal hand) {
+        this.name = name;
+        this.cards = hand;
+        this.points = 0;
+    }
+
+    public String getName() {
+        return this.name;
+    }
 
 
-
-
-    public int totalPoints(){
-        for (int i = 0; i < cardsHeld.countCards(); i++){
-            score = score + cardsHeld.cards.get(i).value;
+    public int totalPoints() {
+        for (int i = 0; i < cards.countCards(); i++) {
+            points = points + cards.cards.get(i).value;
         }
         return score;
     }
+}
