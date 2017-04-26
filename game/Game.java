@@ -13,16 +13,16 @@ public class Game {
         int player2Points = players.get(1).totalPoints();
 
         if (player1Points > player2Points){
-            return "PLayer One Wins!"
+            return "PLayer One Wins!";
         }
         else if (player2Points > player1Points){
-            return "Player Two Wins!"
+            return "Player Two Wins!";
         }
         else if (player2Points == player1Points){
-            return "What are the chances? It's a draw!"
+            return "What are the chances? It's a draw!";
         }
         else {
-            return "Error 1 - Something isn't right / Check PLayer Class"
+            return "Error 1 - Something isn't right / Check PLayer Class";
         }
     }
 }
