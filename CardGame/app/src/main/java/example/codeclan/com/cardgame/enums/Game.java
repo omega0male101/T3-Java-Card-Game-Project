@@ -1,3 +1,11 @@
+package example.codeclan.com.cardgame.enums;
+
+import java.util.ArrayList;
+
+/**
+ * Created by user on 01/05/2017.
+ */
+
 public class Game {
     Dealer dealer;
     ArrayList<Player> players;
@@ -5,7 +13,7 @@ public class Game {
 
     public Game(Dealer dealer) {
         this.dealer = dealer;
-        this.players = new ArrayList<player>;
+        this.players = new ArrayList<Player>();
     }
 
     public String checkWinner(){

@@ -1,9 +1,9 @@
 public class Card {
     int value;
-    CardSuit suit;
+    CardSuits suit;
 
 
-    public Card(int cvalue, Cardsuit csuit) {
+    public Card(int cvalue, Cardsuits csuit) {
         this.value = cvalue;
         this.suit = csuit;
 
@@ -13,7 +13,7 @@ public class Card {
         return this.value;
     }
 
-    public CardSuit getSuit() {
+    public CardSuits getSuit() {
         return this.suit;
     }
 }
